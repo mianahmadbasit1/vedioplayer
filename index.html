@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/progress.css">
+   <title>Vedio Player</title>
+</head>
+<body>
+    <h1>Vedio Player</h1>
+     <video src="assets/videos/vedios of movie.mp4" id="video" class="screen" poster="./assets/images/mian ahmad basit web apps.png" ></video>
+<!---we are also use controls and playr is ready-->
+<div class="controls">
+    <butoon class="btn" id="play"><i class="fas fa-play fa-2x"></i></butoon>
+    <butoon class="btn" id="stop"><i class="fas fa-stop fa-2x"></i></butoon>
+    <input type="range" class="progress" id="progress" min="0" max="100" step="0.1" value="0">
+     <span id="timestamp" class="timestamp">00:00</span>
+</div>
+
+
+
+
+
+    <script src="./style.js"></script>
+    <script src="https://kit.fontawesome.com/5bd5b67b36.js" crossorigin="anonymous"></script>
+</body>
+</html>
